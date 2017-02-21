@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Integrated System Technologies Ltd</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <div class="navbar-header">
+  <a class="navbar-brand navbar-link" href="#">Integrated System Technologies Ltd</a>
+  <button class="navbar-toggle collasped" data-target="#navcol-1" data-toggle="collaspe">
+  <span class="sr-only">Toggle navigaion</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar">></span>
+  <span class="icon-bar">></span>
+  </button>
+  </div>
+  <div id="navcol-1"class="collaspe navbar-collaspe">
+  <ul class="nav navbar-nav navbar-right">
+  <li class="active" role="presentation">
+  <li role="presentation">
+  <a href="#"> Information</a>
+  </li>
+  <li role="presentation">
+  <a href="#"> Company</a>
+  </li>
+  <li role="presentation">
+  <a href="#"> Contact Us</a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  <div id="promo">
+  <div class="jumbotron">
+  <h1>Integrated System Technologies Limited</h1>
+  <p>Integrated System Technologies Limited (istl.com) design, manufacture and deploy commercial lighting systems using innovative LED and
+      building control technologies.
+  </p>
+  </div>
+  </div>
+  <div class="container">
+  <h1>Welcome to Integrated System Technologies</h1>
+  <p>Integrated System Technologies Limited has previously worked with the University and develops software for building management and lighting controls using open source
+      software such as Linux and Java to control devices across the Internet and LAN/WAN networks.
+      Its products are aimed at sectors where there are complex lighting requirements such as theatres, shopping centres, call centres,
+      airports and NHS hospitals.</p>
+  </body>
+</html>
