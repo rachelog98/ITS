@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Integrated System Technologies Ltd</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <div class="navbar-header">
+  <a class="navbar-brand navbar-link" href="#">Integrated System Technologies Ltd</a>
+  <button class="navbar-toggle collasped" data-target="#navcol-1" data-toggle="collaspe">
+  <span class="sr-only">Toggle navigaion</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar">></span>
+  <span class="icon-bar">></span>
+  </button>
+  </div>
+  <div id="navcol-1"class="collaspe navbar-collaspe">
+  <ul class="nav navbar-nav navbar-right">
+  <li class="active" role="presentation">
+    <li role="presentation">
+    <a href="information.html"> Information</a>
+    </li>
+    <li role="presentation">
+    <a href="company.html"> Company</a>
+    </li>
+    <li role="presentation">
+    <a href="contactus.html"> Contact Us</a>
+    </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  <div id="promo">
+  <div class="jumbotron">
+  <h1>Integrated System Technologies Limited</h1>
+  <p>Integrated System Technologies Limited (istl.com) design, manufacture and deploy commercial lighting systems using innovative LED and
+      building control technologies.
+  </p>
+  </div>
+  </div>
+    <p>
+      <form action="dosomething" method="post">
+        Username: <input type="text" name="username"/><br/>
+        Password: <input type="password" name="pass"/><br/>
+        <input type="submit" value="Submit!"/></p>
+      </form>
+    </p>
+    <div class="img">
+      <a target="_blank"href="https://www.facebook.com/"><img src="facebook_1.png" alt="image" width="50" height="50"></a>
+      <a target="_blank"href="https://www.twitter.com/"><img src="twitter_3.jpg" alt="image" width="50" height="50"></a>
+      <a target="_blank"href="https://www.gmail.com/"><img src="gmail_4.png" alt="image" width="50" height="50"></a>
+    </div>
+
+    <address class="address">
+      IST Ltd <br/>
+      31 Gate Lane <br/>
+      Boldmere,<br/>
+      Sutton Coldfield, United Kingdom.<br/>
+      B73 5TR<br/>
+      <strong>E-mail: </strong> geoff@istl.com<br
+    </address>
+
+    <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.1681318560895!2d-1.8418739838306635!3d52.54848357981954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870a4e340af4e35%3A0xb1076092347de8d5!2sGate+Ln%2C+Sutton+Coldfield+B73+5TR!5e0!3m2!1sen!2suk!4v1488282253101" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+  </body>
+</html>
