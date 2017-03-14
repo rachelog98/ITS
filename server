@@ -1,0 +1,72 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+  <title>Login Page</title>
+</head>
+<body>
+  <div id="frm">
+    <form action="process.php" method="POST">
+      <p>
+        <label>Username:</label>
+        <input type="text" id="user" name="user" />
+      </p>
+      <p>
+        <label>Password:</label>
+        <input type="password" id="pass" name="pass" />
+      </p>
+      <p>
+        <input type="submit" id="btn" value="Login" />
+      </p>
+    </form>
+      </div>
+    </body>
+  </html>
+  
+  
+  body{
+  background: #eee
+}
+#frm{
+  border: solid gray 1px;
+  width: 20%;
+  border-radius: 5px;
+  margin: 100px auto;
+  background: white;
+  padding: 50px;
+}
+#btn{
+  color: #fff;
+  background: #337ab7;
+  padding: 5px;
+  margin-left: 69%;
+}
+
+
+
+<?php
+// Get values passe from form in login.php file
+$username = $POST['username'];
+$password = $POST['password'];
+
+// to prevent mysql injection
+$username = stripcslashes($username);
+$password = stripcslashes($password);
+$username = mysql_real_escape_string($username);
+$password = mysql_real_escape_string($password);
+
+//connect to the server and select database
+mysql_connect("localhost", "root", "")
+mysql_select_db("login");
+
+//Query the database for user
+$result = mysql_query("select * from users where username = '$username' and password = '$password'")
+or die ("Failed to query database".mysql_error());
+$row = mysql_fetch_array($result);
+if ($row['username] == $row['password'] == $password ) {
+
+} else {
+    echo "Failed to login!";
+  }
+
+?>
+
